@@ -1,2 +1,2 @@
-# profyle
-Professor's personal profile website :smile:
+# **Pro**fyle
+Professor's personal profile website :teacher:
