@@ -20,7 +20,7 @@ body {
   font-size: 1.8rem;
 }
 
-/* header */
+/* ====== header ====== */
 header {
   background-color: #333;
   height: 5.4rem;
@@ -64,3 +64,50 @@ header nav a:visited {
   font-weight: 600;
 }
 
+/* ====== banner ====== */
+.banner {
+  background-color: #f9f9f9;
+  padding: 6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.banner div {
+  width: 50%;
+}
+
+.banner h1 {
+  font-size: 6rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.banner h1 span {
+  display: block;
+  font-weight: 600;
+  text-decoration: underline;
+
+  color: #128761;
+}
+
+.banner p {
+  margin-bottom: 4.5rem;
+}
+
+.btn {
+  background-color: #128761;
+  padding: 1.8rem 3.2rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 0.6rem;
+}
+
+.banner .foto-perfil {
+  text-align: center;
+}
+
+.banner .foto-perfil img {
+  margin-bottom: -12rem;
+}
