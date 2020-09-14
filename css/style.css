@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
 /* box-sizing reset */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -9,3 +13,54 @@
 html {
   font-size: 10px;
 }
+
+/* font setup */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+}
+
+/* header */
+header {
+  background-color: #333;
+  height: 5.4rem;
+  padding: 0.9rem 6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  width: 11.3rem;
+  height: auto;
+  display: block;
+}
+
+header nav {
+  margin-left: auto;
+}
+
+header nav ul {
+  list-style: none;
+  margin: auto 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav a:active,
+header nav a:visited {
+  color: #128761;
+  font-weight: 600;
+}
+
