@@ -1,0 +1,11 @@
+/* box-sizing reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* font-size reset */
+html {
+  font-size: 10px;
+}
