@@ -141,7 +141,7 @@ header nav a:visited {
 }
 
 .cartao-habilidade {
-  max-width: 39rem;
+  width: calc(33.3% - 3rem);
   background-color: #fff;
   border-radius: .6rem;
   padding: 1.8rem 2.4rem;
@@ -151,18 +151,17 @@ header nav a:visited {
 
 .cartao-habilidade span {
   display: inline-block;
-  text-align: center;
-
   width: 6rem;
   height: 6rem;
-
   border-radius: 50%;
+  
+  padding: 1.3rem;
   margin-bottom: 3rem;
-
+  
   font-size: 3rem;
   font-weight: 600;
+  text-align: center;
   color: #fff;
-  padding: 1.3rem;
 }
 
 .cartao-habilidade:nth-child(1) span {
@@ -176,3 +175,47 @@ header nav a:visited {
 .cartao-habilidade:nth-child(3) span {
   background-color: #871F3E;
 }
+
+
+/* ===== Experiências ===== */
+
+.experiencias {
+  padding: 9rem 6rem;
+  background-color: #f9f9f9;
+}
+
+.lista-experiencias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista-experiencias > div {
+  width: 50%;
+}
+
+.foto-experiencia {
+  background-image: url('../img/imgEscola.jpg'); background-size: cover; background-position: center; height: 34.1rem;
+
+  margin-right: 3rem;
+}
+
+.area-tabela-experiencias {
+  border-left: #c4c4c4 solid .1rem;
+  padding: 3rem;
+}
+
+.area-tabela-experiencias table tr {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.area-tabela-experiencias table td:nth-child(2) {
+  padding-left: 6rem;
+}
+
+.area-tabela-experiencias table tr:not(:last-child) {
+  margin-bottom: 3.3rem;
+}
+
