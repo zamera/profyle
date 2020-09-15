@@ -20,6 +20,21 @@ body {
   font-size: 1.8rem;
 }
 
+/* formatação geral dos textos */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3.7rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
 /* ====== header ====== */
 header {
   background-color: #333;
@@ -109,5 +124,55 @@ header nav a:visited {
 }
 
 .banner .foto-perfil img {
-  margin-bottom: -12rem;
+  margin-bottom: -14rem;
+}
+
+
+/* ====== habilidades ====== */
+
+.habilidades {
+  background-color: #f1f1f1;
+  padding: 9rem 6rem;
+}
+
+.lista-habilidades {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartao-habilidade {
+  max-width: 39rem;
+  background-color: #fff;
+  border-radius: .6rem;
+  padding: 1.8rem 2.4rem;
+
+  box-shadow: 0 .6rem .9rem rgba(0,0,0, .15);
+}
+
+.cartao-habilidade span {
+  display: inline-block;
+  text-align: center;
+
+  width: 6rem;
+  height: 6rem;
+
+  border-radius: 50%;
+  margin-bottom: 3rem;
+
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1.3rem;
+}
+
+.cartao-habilidade:nth-child(1) span {
+  background-color: #0C7494;
+}
+
+.cartao-habilidade:nth-child(2) span {
+  background-color: #128761;
+}
+
+.cartao-habilidade:nth-child(3) span {
+  background-color: #871F3E;
 }
