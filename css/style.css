@@ -43,6 +43,11 @@ header {
 
   display: flex;
   align-items: center;
+
+  /* box-shadow: 0 .6rem .9rem rgba(0,0,0, .15);
+  z-index: 3000;
+  position: fixed;
+  width: 100%; */
 }
 
 header .logo {
@@ -121,6 +126,8 @@ header nav a:hover {
   
   border: none;
   border-radius: 0.6rem;
+
+  cursor: pointer;
 }
 
 .banner .foto-perfil {
@@ -247,4 +254,48 @@ header nav a:hover {
   border-radius: .6rem;
 
   width: calc(62% - 0.9rem);
+}
+
+/* ===== footer ===== */
+footer {
+  padding: 2.4rem 6rem;
+
+  background-color: #333;
+  color: #f9f9f9;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+footer .siga {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .siga span {
+  font-weight: 600;
+  margin-right: 3rem;
+}
+
+footer .siga a {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: inline-block;
+
+  color: #128761;
+  
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  box-shadow: 0 .6rem .9rem rgba(0,0,0, .15);
+}
+
+footer .siga a:not(:last-child) {
+  margin-right: 1.8rem;
 }
