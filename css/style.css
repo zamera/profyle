@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
-
 /* box-sizing reset */
 *,
 *::before,
@@ -9,18 +7,24 @@
   margin: 0;
 }
 
+/* importando fontrs */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway.ttf") format("truetype");
+}
+
 /* font-size reset */
 html {
   font-size: 10px;
 }
 
-/* font setup */
+/* formatação geral dos textos */
 body, input, button {
   font-family: "Raleway", sans-serif;
   font-size: 1.8rem;
+  color: #333;
 }
 
-/* formatação geral dos textos */
 h1, h2, h3 {
   font-weight: 600;
 }
@@ -99,7 +103,7 @@ header nav a:hover {
 
 .banner h1 {
   font-size: 6rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 3rem;
 }
 
@@ -248,7 +252,7 @@ header nav a:hover {
   width: 50%;
 }
 
-.boletim form input {
+.boletim form #email {
   padding: 1.8rem 3.2rem;
   border: none;
   border-radius: .6rem;
@@ -290,6 +294,8 @@ footer .siga a {
   display: inline-block;
 
   color: #128761;
+  text-align: center;
+  padding-top: 1.2rem;
   
   border-radius: 50%;
   background-color: #f9f9f9;
